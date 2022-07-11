@@ -1,0 +1,28 @@
+.img-bottle {
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: $bd;
+        border-right: $bd;
+        border-bottom: $bd;
+
+        @media (max-width:1250px) {
+            border-bottom: none;
+        }
+
+        padding: 22px;
+
+    }
+
+    &__img {
+        width: 100%;
+        // max-width: 1354px;
+
+        img {
+            max-width: 100%;
+        }
+
+    }
+}

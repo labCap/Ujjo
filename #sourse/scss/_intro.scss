@@ -1,0 +1,80 @@
+.intro {
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &__box {
+        flex: 1 1 698px;
+
+
+        border-top: .1px solid #000;
+        border-right: .1px solid #000;
+        border-bottom: .1px solid #000;
+        border-left: .1px solid #000;
+
+        @media (max-width:1250px) {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-top: none;
+
+            flex: none;
+        }
+
+    }
+
+
+    &__img {
+        max-width: 698px;
+
+        height: auto;
+        padding: 20px;
+
+        img {
+            width: 100%;
+        }
+
+        border-top: $bd;
+        border-bottom: $bd;
+
+        @media (max-width:1250px) {
+            border: none;
+        }
+    }
+
+
+
+    &__img-text {
+        padding: 0;
+        border-top: none;
+    }
+
+    &__text {
+        max-width: 698px;
+
+        @media (max-width:1250px) {
+            max-width: 100%;
+        }
+
+
+
+        border-top: $bd;
+        // border-bottom: $bd;
+    }
+
+    &__title {
+        flex: 1 1 100%;
+        border-bottom: 1.1px solid $black;
+        padding: 24px 60px 15px;
+
+        @media (max-width:425px) {
+            padding: 24px 20px 15px;
+        }
+    }
+
+}

@@ -1,0 +1,11 @@
+.pepper {
+
+    &__inner {
+        border: $bd;
+
+        @media (max-width:1250px) {
+            border-bottom: none;
+        }
+
+    }
+}
