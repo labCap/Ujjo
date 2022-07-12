@@ -450,7 +450,7 @@ a {
       -ms-flex: 0 1 435px;
           flex: 0 1 435px;
   height: 660px;
-  background: url(../../img/card/bg.png) no-repeat center/cover;
+  background: url(../img/card/bg.png) no-repeat center/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -634,7 +634,7 @@ a {
 }
 
 .footer__top {
-  background: url(../../img/footer/footer-bg.png) no-repeat center/cover;
+  background: url(../img/footer/footer-bg.png) no-repeat center/cover;
   padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
