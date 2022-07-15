@@ -309,7 +309,7 @@ a {
   border-bottom: 0.1px solid #000;
   border-left: 0.1px solid #000;
 }
-@media (max-width: 1250px) {
+@media (max-width: 1400px) {
   .intro__box {
     width: 100%;
     display: -webkit-box;
@@ -338,7 +338,7 @@ a {
 .intro__img img {
   width: 100%;
 }
-@media (max-width: 1250px) {
+@media (max-width: 1400px) {
   .intro__img {
     border: none;
   }
